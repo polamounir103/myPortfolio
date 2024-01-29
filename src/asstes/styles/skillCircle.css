@@ -1,0 +1,170 @@
+
+.container {
+   
+    margin: 150px auto;
+    background-color: rgba(138, 136, 136, 0.179);
+  }
+  
+  .circlePath {
+    width: 300px;
+    height: 300px;
+    /* background-color: beige; */
+    /* background-image: url(../images/me2.ico); */
+    border-radius: 50%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(0, 42, 255) #002c69 #002c69 #002c69;
+    transform: rotate(0deg);
+    animation: circlePath 8s linear infinite forwards;
+    position: relative;
+  }
+
+  
+  @keyframes circlePath {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .rotatingCircle {
+    width: 60px;
+    height: 60px;
+    /* background-color: #e9c600; */
+    border-radius: 50%;
+    /* border-top: 3px solid #ff0000; */
+    position: absolute;
+    /* transition: transform 020s linear; */
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .rotatingCircle1 {
+    top: -30px;
+    left: 110px;
+    animation: rotateCircle1 8s linear infinite forwards;
+  }
+  .rotatingCircle2 {
+    top: 110px;
+    left: 260px;
+    animation: rotateCircle2 8s linear infinite forwards;
+  }
+  .rotatingCircle3 {
+    top: 260px;
+    left: 110px;
+    animation: rotateCircle3 8s linear infinite forwards;
+  }
+  .rotatingCircle4 {
+    top: 110px;
+    left: -30px;
+    animation: rotateCircle4 8s linear infinite forwards;
+  }
+  
+  .circleImg {
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+  }
+
+
+  .skill-main-image {
+    transform: rotate(45deg);
+    animation: img-circle 8s linear infinite forwards;
+  }
+  @keyframes img-circle{
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(-360deg);
+    }
+  }
+  
+  @keyframes rotateCircle1 {
+    0% {
+      transform: rotate(0deg);
+    }
+    25% {
+      width: 60px;
+      height: 60px;
+    }
+    50% {
+      width: 60px;
+      height: 60px;
+    }
+    75% {
+      width: 75px;
+      height: 75px;
+    }
+    100% {
+      transform: rotate(-360deg);
+    }
+  }
+  @keyframes rotateCircle2 {
+    0% {
+      transform: rotate(0deg);
+    }
+    25% {
+      width: 60px;
+      height: 60px;
+    }
+    50% {
+      width: 75px;
+      height: 75px;
+    }
+    75% {
+      width: 60px;
+      height: 60px;
+    }
+    100% {
+      transform: rotate(-360deg);
+    }
+  }
+  @keyframes rotateCircle3 {
+    0% {
+      transform: rotate(0deg);
+    }
+    25% {
+      width: 75px;
+      height: 75px;
+    }
+    50% {
+      width: 60px;
+      height: 60px;
+    }
+    75% {
+      width: 60px;
+      height: 60px;
+    }
+    100% {
+      transform: rotate(-360deg);
+    }
+  }
+  @keyframes rotateCircle4 {
+    0% {
+      transform: rotate(0deg);
+      width: 75px;
+      height: 75px;
+    }
+    25% {
+      width: 60px;
+      height: 60px;
+    }
+    50% {
+      width: 60px;
+      height: 60px;
+    }
+    75% {
+      width: 60px;
+      height: 60px;
+    }
+    100% {
+      transform: rotate(-360deg);
+      width: 75px;
+      height: 75px;
+    }
+  }
+  

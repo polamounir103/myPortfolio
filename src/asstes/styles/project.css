@@ -1,0 +1,20 @@
+.project-image-container {
+    /* background-image: url(../images/91374.jpg); */
+    background-size:contain;
+    position: relative;
+    
+
+}
+.project-image-back {
+
+}
+.project-image {
+    width: 62%;
+    height: 49%;
+    background-color: red;
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-49.5%, -53%);
+}

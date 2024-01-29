@@ -1,0 +1,53 @@
+.navbarContainer {
+  /* background-color: white; */
+  padding: 10px 50px;
+}
+.navbarLeft {
+}
+.navbarRight {
+  display: flex;
+  justify-content: end;
+}
+.navbar li {
+    list-style: none;
+}
+.navItemList {
+  display: flex;
+  margin-right: 20px;
+  align-items: center;
+}
+.navContactContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navSocialList {
+    display: flex;
+}
+.navContactButton{
+    /* background-color: yellow; */
+    padding: 20px;
+}
+
+.navbarRight.active {
+  /* position: absolute; */
+  /* display: flex; */
+  background-color: rgb(238, 238, 238);
+  width: 100%;
+  top: 100%;
+  right: 0px;
+  /* flex-direction: column; */
+}
+.navbarRight.notActive{
+  display: none;
+}
+@media (min-width: 768px) {
+  .navbarRight.notActive{
+    display: flex;
+  }
+}
+
+* {
+  user-select: none;
+}
+
