@@ -7,6 +7,8 @@ import Skills from "./componenets/Skills";
 import ProjectsSection from "./componenets/ProjectsSection";
 import Footer from "./componenets/Footer";
 import { SpeedInsights } from "@vercel/speed-insights/react"
+import { Analytics } from '@vercel/analytics/react';
+
 function App() {
   return (
     <div className="App">
@@ -17,6 +19,7 @@ function App() {
       <ProjectsSection />
       <Footer />
       <SpeedInsights />
+      <Analytics />
     </div>
   );
 }
