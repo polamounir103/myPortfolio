@@ -6,7 +6,7 @@ import About from "./componenets/About";
 import Skills from "./componenets/Skills";
 import ProjectsSection from "./componenets/ProjectsSection";
 import Footer from "./componenets/Footer";
-
+import { SpeedInsights } from "@vercel/speed-insights/react"
 function App() {
   return (
     <div className="App">
